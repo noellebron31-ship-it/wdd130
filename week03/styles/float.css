@@ -18,6 +18,7 @@ p {
 }
 
 footer {
+    clear: both;
     border-top: 1px solid #555;
     padding-top: 5px;
     /* Remove the comment below and observe the results. */
