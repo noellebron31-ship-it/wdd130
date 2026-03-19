@@ -1,10 +1,17 @@
+:root {
+    --heading-text-color: #333;
+    --heading-background-color: #eee;
+    --padding: 1rem;
+    --border: 1px solid rbg(0 0 0 / 0.1);
+}
+
 aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    padding: var(--padding);
+    background-color: var(--heading-background-color);
+    color: var(--heading-text-color);
     text-align: center;
 }
 
@@ -19,7 +26,7 @@ main img {
 }
 
 p {
-    padding: 0;
+    padding: var(--padding);
 }
 
 footer {
@@ -31,33 +38,33 @@ footer {
 header {
     margin: 0;
     padding: 25px;
-    background-color: rgba(115, 145, 243, 0.457);
+    background-color: var(--heading-background-color);
     border-radius: 10px;
 }
 
 nav {
-    background-color: #ffffff;
-    padding: 10px;
+    background-color: var(--heading-background-color);
+    padding: var(--padding);
 
 }
 
 nav a {
     display: block;
-    padding: 2px;
+    padding: var(--padding);
     border-radius: 2px;
     text-decoration: none;
     color: #000;
 }
 
 h1 {
-    color: #000;
+    color: var(--heading-text-color);
 }
 
 main img {
     width: 10rem;
     height: auto;
-    padding: auto;
-    border: 1px solid rgb(0 0 0);
+    padding: var(--padding);
+    border: var(--border);
     box-shadow: #000;
 }
 
