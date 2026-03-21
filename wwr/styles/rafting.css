@@ -109,3 +109,23 @@ footer .socialmedia img {
     height: 50px;
 
 }
+
+.adventure-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.adventure-container figure {
+    text-align: center;
+    margin: 0;
+    text-align: center;
+}
+
+.adventure-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
