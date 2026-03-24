@@ -70,6 +70,7 @@ h1 {
 }
 
 .hero article img {
+    margin: 35px;
     box-shadow: 0 0 10px #000000;
     float: right;
     width: 125px;
