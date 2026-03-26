@@ -48,6 +48,28 @@ article {
     padding: 8px;
 }
 
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+.hero article {
+    margin: -50px;
+    position: absolute;
+    top: 385px;
+    right: 50px;
+    width: 840px;
+    background-color: var(--accent2-color);
+    border: 1px solid #000000;
+    padding: 1px;
+}
+
 .hero {
     position: relative;
 }
@@ -80,6 +102,10 @@ main article {
     background-color: var(--accent2-color);
     border: 1px solid #000000;
 
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
 
 main section {
