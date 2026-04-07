@@ -54,6 +54,10 @@ header nav a {
 
 }
 
+header nav a:hover {
+    background-color: var(--accent2-color);
+}
+
 nav ul {
     color: #000000;
     display: grid;

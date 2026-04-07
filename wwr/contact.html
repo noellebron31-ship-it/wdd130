@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us | White Water Rafting</title>
+    <meta name="description"
+      content="This is the html about the page of the white water rafting and the trip">
+    <meta name="author" content="Adonis Lebron">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="company logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-contact">
+            <h1>White Water Rafting Company</h1>
+            <h2>Av Republica de Colombia</h2>
+            <h3>Santo Domingo, Republica Dominicana</h3>
+            <h4>+1 809-555-1234</h4>
+            <h5>Info@whitewaterrafting.com</h5>
+        </section>
+
+        <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7567.685015588506!2d-69.96245175627483!3d18.490791697354354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf8a1bebffffff%3A0x90f52227d7aaac44!2sJard%C3%ADn%20Bot%C3%A1nico%20Nacional%20Dr.%20Rafael%20Mar%C3%ADa%20Moscoso!5e0!3m2!1ses-419!2sdo!4v1775533932860!5m2!1ses-419!2sdo"
+              width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+
+            <form>
+                <h2>Contact Us</h2>
+
+                <div class="form-item">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-item">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <fieldset>
+                    <legend>Message Purpose</legend>
+                    <input type="radio" id="inquiry" name="purpose" value="inquiry" required>
+                    <label for="inquiry">General Inquiry</label>
+
+                    <input type="radio" id="booking" name="purpose" value="booking">
+                    <label for="booking">Reservation Question</label>
+
+                    <input type="radio" id="feedback" name="purpose" value="feedback">
+                    <label for="feedback">Website Suggestion</label>
+                </fieldset>
+
+                <div class="form-item">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Type here"
+                      required></textarea>
+                </div>
+
+
+                <div class="checkbox-item">
+                    <label for="checkbox">Please Subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="checkbox" name="newsletter">
+                </div>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </div>
+
+        <section class="adventures">
+
+            <h2>We Are Here to Serve You</h2>
+            <div class="adventure-container">
+
+                <figure>
+                    <img src="images/persona.jpg" alt="Rapid water">
+                    <figcaption>Miguel de los Santos</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/persona2.jpg" alt="Big Mallard">
+                    <figcaption>Adonis Lebron </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/persona3.jpg" alt="Half Day">
+                    <figcaption>Jose Cabrera</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy;2026 White Water Rafting 🪸| Adonis lebron</p>
+
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook Icon">
+            </a>
+
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram Icon">
+            </a>
+
+            <a href="https://tiktok.com">
+                <img src="images/tictok.svg" alt="TikTok Icon">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
